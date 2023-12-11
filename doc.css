@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+#doclogo{
+    width: 260px;
+}
+.navoptions{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#Career, #Departments{
+    text-decoration: none;
+    color: #ababab;
+}
+#About{
+    text-decoration: none;
+    color: #00b39b;
+}
+
+                    /*SECTION ONE */
+
+#docicon{
+    width: 40px;
+    height: 40px;
+}
+.para1{
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    font-size: 2rem;
+    padding-top: 1rem;
+    letter-spacing: -0.3px;
+    word-spacing: 2px;
+    font-weight: 600;
+}
+.sectionone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.9rem;
+    margin-bottom: 3.9rem;
+}
+.paragraphs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.6rem;
+    padding-left: 300px;
+    padding-right: 300px;
+    width: 100%;
+    color: #747474;
+    line-height: 1.42857143;
+    font-size: 16px;
+}
+.paraone{
+    padding-right: 30px;
+    display: block;
+    font-size: 1rem;
+    margin: 0 0 10px;
+    font-weight: 900;
+}
+.paratwo{
+    display: block;
+    font-size: 1rem;
+    margin: 0 0 10px;
+    font-weight: 900;
+}
+
+                /* SECTION TWO */
+.sectiontwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    width: 100%;
+    font-size: 1.1em;
+    line-height: 1.2;
+    font-weight: 300;
+    padding: 0 20px;
+}
+.patients{
+    display: flex;
+    flex-direction: column;
+    background-color: #00b39b;
+    padding: 1.5em 2em 0;
+    height: 345px;
+    border-radius: 10px;
+    width: 300px;
+    color: #fff;
+}
+.patients #forpats, .doctorinfo #fordocs, .clinics #forclics{
+    font-size: 1.62em;
+    font-weight: 400;
+    columns: #fff;
+    font-family: sans-serif, Arial, Work Sans;
+}
+p{
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        font-family: Work Sans, Arial, Sans-serif;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: 600;
+        font-size: 1em;
+}
+
+
+.doctor{
+    display: flex;
+    flex-direction: column;
+    background: #3d83df;
+    height: 345px;
+    width: 265px;
+    padding: 1.5em 2em 0;
+    border-radius: 10px;
+    color: #fff;
+}
+.clinicinfo{
+    background: #1b2734;
+    display: flex;
+    flex-direction: column;
+    height: 345px;
+    width: 300px;
+    padding: 1.5em 2em 0;
+    border-radius: 10px;
+    color: #fff;
+}
+option{
+    font-weight: normal;
+
+}
+.patients select{
+    background-color: #00b39b;
+    text-decoration: underline;
+    border: none;
+    color: inherit;
+    font: inherit;
+}
+.doctor select{
+    background-color: #3d83df;
+    text-decoration: underline;
+    border: none;
+    color: inherit;
+    font: inherit;
+}
+.clinics select{
+    background-color: #1b2734;
+    text-decoration: underline;
+    border: none;
+    color: inherit;
+    font: inherit;
+}
+
+                    /* SECTION 3 */
+.sectionthree{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.threeimg{
+    display: flex;
+    width: 60%;
+    margin-top: 2rem;
+}
+.title p{
+    font-size: 1.3rem;
+    color: #00b39b;
+    padding-right: 0.7em;
+    font-family: Work Sans, Arial, Sans-serif;
+    letter-spacing: 1.5px;
+}
+.logosectthree{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding-left: 6.8rem;
+    padding-right: 1.8em;
+}
+.logosectthree img{
+    object-fit: contain;
+    width: 5.5rem;
+    vertical-align: middle;
+    border: 0;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+                /* SECTION FOUR */
+.sectionfour{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D0FAF4;
+    margin-top: 50px;
+    font-family: Work Sans, Arial, Sans-serif;
+    color: #00b39b;
+    padding-left: 50px;
+    letter-spacing: -0.1px;
+}
+.world{
+    padding-top: 60px;
+    font-weight: 600;
+    padding-right: 10rem;
+    word-spacing: 1px;
+    font-size: 16px;
+}
+.world h3{
+    font-size: 30px;
+}
+.imglogocropped{
+    padding-right: 3rem;
+}
+.sectionfour p{
+    color: #747474;
+    font-size: 16px;
+}
+.sectfoursecondpart{
+    display: flex;
+    margin-left: 1rem;
+}
+.fandtwobox{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 200px;
+    justify-content:space-around;
+    margin-top: 1.8rem;
+}
+.firstbox{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid white;
+    border-radius: 2px;
+    width: 210px;
+    height: 260px;
+    align-items: center;
+    padding: 13px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.firstbox p, .secondbox p, .threebox p, .fourbox p{
+    font-size: 0.8125em;
+    font-weight: 600;
+    /* font-family: Roboto, Arial, sans-serif; */
+    color: #747474;
+}
+.secondbox{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid white;
+    border-radius: 2px;
+    width: 210px;
+    height: 255px;
+    align-items: center;
+    padding: 13px;
+    justify-content: center;
+    text-align: center;
+}
+.sandthreebox{
+    margin-left: 3rem;
+    justify-content:space-around;
+}
+.threebox{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid white;
+    border-radius: 2px;
+    width: 210px;
+    height: 250px;
+    align-items: center;
+    padding: 13px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.fourbox{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid white;
+    border-radius: 2px;
+    width: 210px;
+    height: 250px;
+    align-items: center;
+    padding: 13px;
+    justify-content: center;
+    text-align: center;
+}
+                /* SECTION FIVE */
+.sectfive{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    margin-top: 4rem;
+    font-family: Work Sans, Arial, Sans-serif;
+}
+.improve h3{
+    text-align: center;
+    color: #00b39b;
+    font-weight: 600;
+    font-size: 30px;
+}
+.improve p{
+    text-align: center;
+    color: #747474;
+    line-height: 1.7rem;
+    font-size: 13.5px;
+    font-weight: 900;
+}
+
+                    /* SECTION SIX */
+.openings{
+    display: flex;
+    align-items: end;
+    border-radius: 1em;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+button{
+background-color: #3d83df;
+border-radius: 5px;
+color: #fff;
+border: 1px solid transparent;
+padding: 10px 10px;
+font-weight: 700;
+font-family: Roboto, Arial, sans-serif;
+font-size: 12px;
+height: fit-content;
+text-align: center;
+}
+.countries{
+    width: fit-content;
+}
+.locations{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 6rem;
+    margin-left: 9rem;
+    margin-right: 9rem;
+}
+div .button{
+background-color: #3d83df;
+border-radius: 5px;
+color: #fff;
+border: 1px solid transparent;
+padding: 10px 10px;
+font-weight: 700;
+font-family: Roboto, Arial, sans-serif;
+font-size: 12px;
+height: fit-content;
+text-align: center;
+margin-top: 2rem;
+}
+.sectseven{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7rem;
+}
+.sound{
+    text-align: center;
+    font-family: Work Sans, Arial, Sans-serif;
+    color: black;
+    font-size: 25px;
+    font-weight: 100;
+}
+.leaders{
+    padding-top: 3rem;
+    text-align: center;
+    font-size: 13px;
+}
+span{
+    color: #3d83df;
+}
+span.sp{
+    color: #747474;
+}
+
+
